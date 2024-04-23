@@ -1,6 +1,6 @@
-# ANextG
+# ANA
 
-AnextG is a pretentious project that seeks to implement a new generation of autonomous driving
+ANA is a pretentious project that seeks to implement a new generation of autonomous driving
 
 ## Installation
 
