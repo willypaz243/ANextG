@@ -82,6 +82,8 @@ def draw_objects(img: cv.Mat, objects: cv.Mat, threshold: float = 0.5):
 
 def loop(cap: cv.VideoCapture):
     ret, frame = cap.read()
+    if not ret:
+        return True
     objects = detect_object(object_detector, frame)
     draw_objects(frame, objects)
     cv.imshow("frame", frame)
